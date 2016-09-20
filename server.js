@@ -12,15 +12,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article_one', function (req, res) {
-  res.serve('article_one request servered');
+  res.send('article_one request servered');
 });
 
 app.get('/article_two', function (req, res) {
-  res.serve('article_one request servered');
+  res.send('article_one request servered');
 });
 
 app.get('/article_three', function (req, res) {
-  res.serve('article_one request servered');
+  res.send('article_one request servered');
 });
 
 
