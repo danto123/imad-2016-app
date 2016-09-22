@@ -19,4 +19,8 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.container{
+    padding-left:10px;
+    color:blue;
+    font-size:40px;
+}
