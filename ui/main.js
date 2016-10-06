@@ -32,4 +32,8 @@ button.onclick=function(){
       }
       
   };
+  request.open('GET',"http://danto123.imad.hasura-app.io/counter",true);
+  request.send(null);
+  
+  
 };
