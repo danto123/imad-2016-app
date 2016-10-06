@@ -44,7 +44,7 @@ button.onclick=function(){
 
 var submit=document.getElementById('submit_btn');
 submit.onclick=function(){
-    var request= new XMLHttpRequset();
+    var request= new XMLHttpRequest();
     request.onreadystatechange=function(){
         if(request.readyState==XMLHttpRequest.DONE){
             if(request.status==200){
